@@ -2,12 +2,12 @@ import React, { Component } from 'react';
 import { Route, Link, Router } from 'react-router'
 import './App.css';
 import { BrowserRouter } from 'react-router-dom'
-import Home from './components/Home';
+import BaseLayout from './components/BaseLayout';
 
 
 const App = () => (
   <BrowserRouter>
-    <Home />
+    <BaseLayout />
   </BrowserRouter>
 )
 // render(<App />, document.getElementById('root'))
